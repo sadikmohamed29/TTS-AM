@@ -1,7 +1,7 @@
 
 h1 {
   text-shadow: 2px 2px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Space Mono', monospace ;
 }
 /* Style the navbar */
 .topnav {
@@ -46,6 +46,7 @@ h1 {
 /* Style the input container */
 .topnav .search-container {
   float: right;
+
 }
 
 /* Style the input field inside the navbar */
@@ -127,4 +128,5 @@ a:hover {
   100% {
     margin-left: 0%;
   }
+
 }
