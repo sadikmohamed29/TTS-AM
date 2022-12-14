@@ -1,0 +1,12 @@
+button {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(9, 115, 253);
+}
+
+button:hover{
+    background-color: gray;
+}
