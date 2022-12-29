@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title></title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+<a th:href="@{/home}">Home</a>
+<a th:href="@{/about}">About</a>
+
+
+</head>
+
+<body>
+<h1 >Welcome</h1>
+
+<form th:action="@{/submit}" method="post">
+  <label>Name:</label><br>
+  <input type="text" name="name"><br>
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+  <input type="submit" value="Submit" id = "button">
+</form> 
+<img src="http://localhost:8080/images/myImage.png" />
+
+
+</body>
+
+</html>
